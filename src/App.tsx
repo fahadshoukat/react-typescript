@@ -1,11 +1,12 @@
 import './App.css';
-import Container from './components/Container';
+import LoggedIn from './components/state/LoggedIn';
+
 
 function App() {
 
   return (
     <div className="App">
-     <Container styles={{border: '1px solid red', padding: '10px'}} />
+     <LoggedIn />
     </div>
   );
 }
